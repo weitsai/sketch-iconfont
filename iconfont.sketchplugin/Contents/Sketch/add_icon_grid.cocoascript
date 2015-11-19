@@ -2,7 +2,7 @@
 
 var onFontawesome = function(context) {
   // onRun function with context, json file path, title and font name.
-  onRun(context,"fontawesome.json","Font Awesome","FontAwesome");
+  onRun(context,"fontawesome.json","Howo","howo");
 }
 
 var onMaterial = function(context) {
