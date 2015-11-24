@@ -62,7 +62,7 @@ var onRun = function(context,icon_path,title,fontname) {
       // set target itself because we need to click everycell
       [[cellArray objectAtIndex:k] setTarget:self];
       [[cellArray objectAtIndex:k] setCOSJSTargetFunction:function(sender) {
-        [wrapper orderOut:nil]
+        /*[wrapper orderOut:nil]*/
         [[NSApplication sharedApplication] stopModalWithCode:NSOKButton]
         [cellArray setCOSJSTargetFunction:nil]
       }];
